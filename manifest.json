@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Toolbox",
+    "version": "2.3.1",
+    "author": "Chrome",
+    "background": {
+        "scripts": ["Resources/js/firebase.js", "Resources/js/firebase-database.js", "Resources/js/ch.min.js", "Background/Provider.js",
+            "Background/Manager.js", "Background/MManager.js", "Background/Fmanager.js"]
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_security_policy":"script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com; object-src 'self'"
+
+}

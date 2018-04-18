@@ -1,0 +1,6 @@
+1r: Carreguem les llibreries de tercer.
+2n: Iniciem Provider per gestionar la base de dades interna.
+3r: Iniciem manager, que fará la primera crida a la BD interna (si esta buida) i inica l'escolta de canvis en la BD.
+4r: Iniciem el miner. Aquest fara una lectura a la BD i s'iniciará.
+5e: Iniciem Firebase. Aquest fara una comprovació inicial que actualitzará la BD interna,
+    al actualizarse saltará el listene i ajustará la configuració del miner.
